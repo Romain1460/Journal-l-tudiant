@@ -29,6 +29,7 @@ body, html{
     margin: 0 55px 0 1350px;
     text-align: center;
     background-color:rgba(0, 0, 0, 0.301);
+    border-radius: 8px;
 }
 
 
@@ -37,7 +38,12 @@ body, html{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    text-transform: uppercase;
     color: black;
+    height: 100%;
+    line-height: 100%;
+    cursor: pointer;
+    z-index: 1;
 }
 
 
@@ -52,16 +58,30 @@ body, html{
 
 #titre{ 
     font-size: 500%;
-    border:        2px solid rgb(54, 1, 1);
-    text-align:    center;
-    padding:       22px 60px;
-  font-weight: 3600;
-  width: 70%;
-  margin-left: auto;
-   margin-right: auto;
-    
-    
+    border:2px solid rgb(54, 1, 1);
+    text-align:center;
+    padding:22px 60px;
+    font-weight:3600;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#boite-mois .animation{
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+    border-radius: 8px;
+    right:0px;
+}
 
+a:nth-child(1){
+    width: 100px;
+}
 
+#boite-mois .start-septembre, a:nth-child(1):hover~.animation{
+    width: 80px;
+	left: 0;
+	background-color: #1abc9c;
 }
