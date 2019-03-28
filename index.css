@@ -4,9 +4,35 @@
     font-family: Arial;
     color: white;
     text-shadow: 0px 0px 15px black;
-
 }
 
 body, html{
-    background-color:royalblue ;
+    background-color:rgb(255, 255, 255) ;
+}
+
+.mois{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 20px 20px 0;
+}
+
+#boite-mois {
+    text-align: right;
+    margin: 0 55px 0 1350px;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.301);
+}
+
+#boite-mois ul li a{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+#boite-mois ul li a:hover{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 255, 13);
 }
