@@ -18,13 +18,13 @@ body, html{
     background-attachment: fixed, scroll;
     -webkit-background-size: cover;
 }
-.mois{
+.boutons{
     text-decoration: none;
     list-style-type: none;
     padding: 20px 20px 20px 0;
 }
 
-#boite-mois {
+#boite-boutons {
     text-align: right;
     margin: 0 55px 0 1350px;
     text-align: center;
@@ -34,7 +34,7 @@ body, html{
 
 
 
-#boite-mois ul li a{
+#boite-boutons ul li a{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
@@ -48,7 +48,7 @@ body, html{
 
 
 
-#boite-mois ul li a:hover{
+#boite-boutons ul li a:hover{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
