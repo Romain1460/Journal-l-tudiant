@@ -49,6 +49,10 @@ body, html{
     color: rgb(0, 255, 13);
 }
 
+.boite-boutons-2{ 
+
+    text-align:right !important;
+}
 
 #titre{ 
     font-size: 500%;
