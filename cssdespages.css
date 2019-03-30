@@ -1,0 +1,32 @@
+.boutons-2{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 20px 20px 0;
+   
+}
+
+#boite-boutons-2 {
+    margin-top: 0%;
+  margin-left: 2%;
+    margin-right: 80%;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.301);
+    
+}
+
+#boite-boutons-2 ul li a{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#boite-boutons-2 ul li a:hover{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 255, 13);
+   
+   
+}
