@@ -4,7 +4,8 @@
     font-family: Arial;
     color: white;
     text-shadow: 0px 0px 15px black;
-    margin-top:0%
+    margin-top:0%;
+    font-family:Georgia, serif;
 
 }
 
@@ -18,6 +19,47 @@ body, html{
     background-attachment: fixed, scroll;
     -webkit-background-size: cover;
 }
+
+
+
+  
+
+
+.boutons-2{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 20px 20px 0;
+   
+}
+
+#boite-boutons-2 {
+    margin-top: -21%;
+  margin-left: 2%;
+    margin-right: 80%;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.301);
+    
+}
+
+#boite-boutons-2 ul li a{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#boite-boutons-2 ul li a:hover{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 255, 13);
+   
+   
+}
+
+
+
 .boutons{
     text-decoration: none;
     list-style-type: none;
@@ -26,7 +68,8 @@ body, html{
 
 #boite-boutons {
     text-align: right;
-    margin: 0 55px 0 1350px;
+    margin-left: 80%;
+    margin-right:2%;
     text-align: center;
     background-color:rgba(0, 0, 0, 0.301);
     border-radius: 8px;
@@ -58,14 +101,15 @@ body, html{
 
 #titre{ 
     font-size: 500%;
-    border:2px solid rgb(54, 1, 1);
-    text-align:center;
-    padding:22px 60px;
-    font-weight:3600;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    border:        2px solid rgb(54, 1, 1);
+    text-align:    center;
+    padding:       22px 60px;
+  font-weight: 3600;
+  width: 70%;
+  margin-left: auto;
+   margin-right: auto;
+   overflow-x: hidden;
+    
 
 #boite-mois .animation{
 	height: 100%;
@@ -84,4 +128,13 @@ a:nth-child(1){
     width: 80px;
 	left: 0;
 	background-color: #1abc9c;
+}
+
+
+#logo{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:51%;
+    margin-top: -22%;
 }
