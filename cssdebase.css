@@ -1,140 +1,108 @@
-#titre{
-    text-align: center;
-    font-size: 45px;
-    font-family: Arial;
-    color: white;
-    text-shadow: 0px 0px 15px black;
-    margin-top:0%;
-    font-family:Georgia, serif;
-
+/* paramettre du corp de la programmation */
+body, html{ 
+    background-image: url('img/'); /* image de fond */
+    background-repeat:  no-repeat; /* pas de répétition d'images */
+    background-size: cover; /*  */
+    -o-background-size: cover; /*  */
+    -webkit-background-size: cover; /*  */
+    background-size: auto; /*  */
+    background-attachment: fixed, scroll; /*  */
 }
 
-body, html{
-  
-    background-image: url('img/');
-    background-repeat:  no-repeat; 
-    background-size:cover;
-    background-size: auto;
-    -o-background-size: cover;
-    background-attachment: fixed, scroll;
-    -webkit-background-size: cover;
-}
-
-
-
-  
-
-
+/* décoration des boutons N°2 */
 .boutons-2{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 20px 20px 20px 0;
-   
+    text-decoration: none; /* pas de décoration d'objet */
+    list-style-type: none; /* pas de puce de liste */
+    padding: 20px 20px 20px 0; /* paramettre padding top="20" right="20" bottom="20" left="0" */
 }
 
+/* paramettre du support des boutons N°2 */
 #boite-boutons-2 {
-    margin-top: -21%;
-  margin-left: 2%;
-    margin-right: 80%;
-    text-align: center;
-    background-color:rgba(0, 0, 0, 0.301);
-    
+    margin-left: 2%;
+    text-align: center; /* texte aligné au centre */
+    background-color:rgba(0, 0, 0, 0.301); /* couleur de fond = " gris " */
+    height: 500px; /* hauteur=" 500 pixel " */
+    width: 405px; /* taille= " 200 pixel " */
+    border:1px solid blue; /* bordure de "repaire" ( peut-être suppr ) */
+    float:left; /*  */
+    border-radius: 8px; /* bordure arrondie de 8 pixel */
 }
 
+/* paramettre des boutons N°2 */
 #boite-boutons-2 ul li a{
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    color: black;
-    
+    font-size: 30px; /* taille des boutons */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* police d'écriture */
+    text-decoration: none; /* pas de décoration d'objets */
+    color: black;/* couleur d'objet*/
+    transition-duration: 0.5s;/* duré des transitions */
 }
 
+/* paramettre des boutons quand souris passe dessus */
 #boite-boutons-2 ul li a:hover{
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    color: rgb(0, 255, 13);
-   
-   
+    font-size: 40px; /* tailles des boutons */
+    text-decoration: none; /* décoration auto désactivé */
+    color: rgb(0, 255, 13); /* couleur du texte vert claire */
 }
 
-
-
+/* décoration des boutons */
 .boutons{
-    text-decoration: none;
-    list-style-type: none;
-    padding: 20px 20px 20px 0;
+    text-decoration: none; /* pas de décoration de boutons */
+    list-style-type: none; /* pas de puce de style liste */
+    padding: 20px 20px 20px 0; /* paramettre padding top="20" right="20" bottom="20" left="0" */
 }
 
+/* paramettre du support des boutons */
 #boite-boutons {
-    text-align: right;
-    margin-left: 80%;
-    margin-right:2%;
-    text-align: center;
-    background-color:rgba(0, 0, 0, 0.301);
-    border-radius: 8px;
+    margin-left: 80%; /* marge de gauche à 80% */
+    margin-right: 2%; /* marge de droite à 2% */
+    text-align: center; /* aligné le texte  */
+    background-color:rgba(0, 0, 0, 0.301); /* couleur de fond noir */
+    border-radius: 8px; /* arrondissemend de 8 px */
+    /* ajouté => */
+    border: 1px solid red; /* pordure de repaire ( peut-être suppr ) */
+    position: absolute; /* position n'influencent pasle reste de la progra */
+    right: 10px; /*  */
+    width: 250px; /* largeur de 250 pixel */
 }
 
-
-
+/* paramettre des boutons */
 #boite-boutons ul li a{
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    height: 100%;
-    line-height: 100%;
-    cursor: pointer;
-    z-index: 1;
+    font-size: 30px; /* taille des lettres */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* police d'écriture */
+    text-decoration: none; /* pas de décoration auto */
+    text-transform: uppercase; /*  */
+    color: black; /* texte de couleur noir */
+    height: 100%; /* hauteur à 100% */
+    line-height: 100%; /*  */
+    cursor: pointer; /*  */
+    transition-duration: 0.5s; /* duré des transition de 0.5 seconde */
 }
 
-
-
+/* paramettre des boutons quand souris passe dessus */
 #boite-boutons ul li a:hover{
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: none;
-    color: rgb(0, 255, 13);
+    font-size: 40px; /* taille du texte */
+    font-family: 'Franklin Gothic Mediu', 'Arial Narrow', Arial, sans-serif; /* police d'écriture */
+    text-decoration: none; /* pas de décoration de texte */
+    color: rgb(0, 255, 13); /* texte de couleur vert */
 }
 
-
+/* paramettre du titre */
 #titre{ 
-    font-size: 500%;
-    border:        2px solid rgb(54, 1, 1);
-    text-align:    center;
-    padding:       22px 60px;
-  font-weight: 3600;
-  width: 70%;
-  margin-left: auto;
-   margin-right: auto;
-   overflow-x: hidden;
-    
-
-#boite-mois .animation{
-	height: 100%;
-	top: 0;
-	z-index: 0;
-	transition: all .5s ease 0s;
-    border-radius: 8px;
-    right:0px;
+    font-size: 600%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 8px; /* arrondissement des bords */
+    text-align: center; /* aligner le texte au centre */
+    padding: 0 0 0 0; /* paramettre du padding top=0 right=0 bottom=0 left=0 */
+    font-weight: 3600; /*  */
+    width: 70%; /* largeur=70% */
+    margin: 0 auto 0 auto; /* paramettre des marges top="0" right="auto" bottom="0" left="auto" */
+    overflow-x: hidden; /*  */
+    text-align: center; /* alignement du texte = centré */
+    text-shadow: 0px 0px 15px black; /* ombres du titre */
+    font-family: Georgia, Times, 'Times New Roman';
+    color: rgb(0, 0, 0); /* couleur = noir */
 }
 
-a:nth-child(1){
-    width: 100px;
-}
-
-#boite-mois .start-septembre, a:nth-child(1):hover~.animation{
-    width: 80px;
-	left: 0;
-	background-color: #1abc9c;
-}
-
-
-#logo{ 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:51%;
-    margin-top: -22%;
+#video{
+    text-align: center; /* video aligné au centre */
 }
