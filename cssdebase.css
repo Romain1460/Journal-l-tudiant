@@ -1,13 +1,12 @@
 /* paramettre du corp de la programmation */
 body, html{ 
     background-image: url('img/bg.png'); /* image de fond */
-    background-repeat:  no-repeat; /* pas de répétition d'images */
-    background-size: cover; /*  */
-    -o-background-size: cover; /*  */
-    -webkit-background-size: cover; /*  */
-    background-size: auto; /*  */
-    background-attachment: fixed, scroll; /*  */
-    background-size: 100%;
+    background-repeat: no-repeat; /* pas de répétition d'images */
+    background-size: auto,cover; /* l'image prend tout l'écran */
+    -o-background-size: cover; /* l'image prend tout l'écran */
+    -webkit-background-size: cover; /* l'image prend tout l'écran */
+    background-attachment: fixed, scroll; /* l'aimge descend quand on scroll */
+    background-size: 100%; /* la taille de l'image est à 100% de sa taille */
 }
 
 /* décoration des boutons N°2 */
@@ -19,13 +18,12 @@ body, html{
 
 /* paramettre du support des boutons N°2 */
 #boite-boutons-2 {
-    position: absolute;
-    margin: 10px 0 0 2%;
+    position: absolute; /* position en absolut */
+    margin: 10px 0 0 2%; /* paramettre de marge top="10px" right="0" bottom="0" left="2%" */
     text-align: center; /* texte aligné au centre */
     background-color:rgba(255, 255, 255, 0.534); /* couleur de fond = " gris " */
     height: 380px; /* hauteur=" 500 pixel " */
     width: 34   0px; /* taille= " 200 pixel " */
-    border: 1px solid blue; /* bordure de "repaire" ( peut-être suppr ) */
     float: left; /*  */
     border-radius: 8px; /* bordure arrondie de 8 pixel */
 }
@@ -42,7 +40,7 @@ body, html{
 /* paramettre des boutons quand souris passe dessus */
 #boite-boutons-2 ul li a:hover{
     text-decoration: none; /* décoration auto désactivé */
-    color: rgb(0, 255, 13); /* couleur du texte vert claire */
+    color: rgb(255, 255, 255); /* couleur du texte vert claire */
 }
 
 /* décoration des boutons */
@@ -58,7 +56,6 @@ body, html{
     text-align: center; /* aligné le texte  */
     background-color:rgba(255, 255, 255, 0.534); /* couleur de fond noir */
     border-radius: 8px; /* arrondissemend de 8 px */
-    border: 1px solid red; /* pordure de repaire ( peut-être suppr ) */
     position: absolute; /* position n'influencent pasle reste de la progra */
     right: 10px; /*  */
     width: 250px; /* largeur de 250 pixel */
@@ -80,7 +77,7 @@ body, html{
 /* paramettre des boutons quand souris passe dessus */
 #boite-boutons ul li a:hover{
     text-decoration: none; /* pas de décoration de texte */
-    color: rgb(0, 255, 13); /* texte de couleur vert */
+    color: rgb(255, 255, 255); /* texte de couleur vert */
 }
 
 /* paramettre du titre */
@@ -105,5 +102,15 @@ body, html{
 }
 
 #article{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.719);
+    width: 600px;
+    height: 300px;
+    text-align: left;
+    margin: 20px 0 0 34%;   
+    border-radius: 8px;
+}
+
+#st{
+    font-size: 30px;
+    font-family: inherit;
 }
