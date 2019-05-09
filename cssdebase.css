@@ -7,6 +7,43 @@ body, html{
     -webkit-background-size: cover; /* l'image prend tout l'écran */
     background-attachment: fixed, scroll; /* l'aimge descend quand on scroll */
     background-size: 100%; /* la taille de l'image est à 100% de sa taille */
+    margin: 0 0 0 2%; /* margin top="0" right="0" bottom="0" left="1%" */
+}
+
+/* décoration des boutons */
+.boutons{
+    text-decoration: none; /* pas de décoration de boutons */
+    list-style-type: none; /* pas de puce de style liste */
+    padding: 10px 20px 10px 0; /* paramettre padding top="20" right="20" bottom="20" left="0" */
+}
+
+/* paramettre du support des boutons */
+#boite-boutons {
+    margin: 5% 8% 0 80%; /* marge top="10px" right="2%" bottom="0" left="80%" */
+    text-align: center; /* aligné le texte  */
+    background-color:rgba(255, 255, 255, 0.534); /* couleur de fond noir */
+    position: absolute; /* position n'influencent pasle reste de la progra */
+    right: 10px; /*  */
+    width: 300px; /* largeur de 250 pixel */
+}
+
+/* paramettre des boutons */
+#boite-boutons ul li a{
+    font-size: 45px; /* taille des lettres */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* police d'écriture */
+    text-decoration: none; /* pas de décoration auto */
+    text-transform: uppercase; /*  */
+    color: black; /* texte de couleur noir */
+    height: 100%; /* hauteur à 100% */
+    line-height: 150%; /* écart entre les lignes */
+    cursor: pointer; /*  */
+    transition-duration: 0.5s; /* duré des transition de 0.5 seconde */
+}
+
+/* paramettre des boutons quand souris passe dessus */
+#boite-boutons ul li a:hover{
+    text-decoration: none; /* pas de décoration de texte */
+    color: rgb(255, 255, 255); /* texte de couleur vert */
 }
 
 /* décoration des boutons N°2 */
@@ -19,65 +56,28 @@ body, html{
 /* paramettre du support des boutons N°2 */
 #boite-boutons-2 {
     position: absolute; /* position en absolut */
-    margin: 10px 0 0 2%; /* paramettre de marge top="10px" right="0" bottom="0" left="2%" */
+    margin: 5% 0 0 2%; /* paramettre de marge top="10px" right="0" bottom="0" left="2%" */
     text-align: center; /* texte aligné au centre */
     background-color:rgba(255, 255, 255, 0.534); /* couleur de fond = " gris " */
-    height: 380px; /* hauteur=" 500 pixel " */
-    width: 34   0px; /* taille= " 200 pixel " */
+    height: 650px; /* hauteur=" 500 pixel " */
+    width: 400px; /* taille= " 340 pixel " */
     float: left; /*  */
-    border-radius: 8px; /* bordure arrondie de 8 pixel */
 }
 
 /* paramettre des boutons N°2 */
 #boite-boutons-2 ul li a{
-    font-size: 30px; /* taille des boutons */
+    font-size: 35px; /* taille des boutons */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* police d'écriture */
     text-decoration: none; /* pas de décoration d'objets */
     color: black;/* couleur d'objet*/
     transition-duration: 0.5s;/* duré des transitions */
+    line-height: 230%; /* écart entre les lignes */
 }
 
 /* paramettre des boutons quand souris passe dessus */
 #boite-boutons-2 ul li a:hover{
     text-decoration: none; /* décoration auto désactivé */
     color: rgb(255, 255, 255); /* couleur du texte vert claire */
-}
-
-/* décoration des boutons */
-.boutons{
-    text-decoration: none; /* pas de décoration de boutons */
-    list-style-type: none; /* pas de puce de style liste */
-    padding: 10px 20px 10px 0; /* paramettre padding top="20" right="20" bottom="20" left="0" */
-}
-
-/* paramettre du support des boutons */
-#boite-boutons {
-    margin: 10px 2% 0 80%; /* marge top="10px" right="2%" bottom="0" left="80%" */
-    text-align: center; /* aligné le texte  */
-    background-color:rgba(255, 255, 255, 0.534); /* couleur de fond noir */
-    border-radius: 8px; /* arrondissemend de 8 px */
-    position: absolute; /* position n'influencent pasle reste de la progra */
-    right: 10px; /*  */
-    width: 250px; /* largeur de 250 pixel */
-}
-
-/* paramettre des boutons */
-#boite-boutons ul li a{
-    font-size: 30px; /* taille des lettres */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* police d'écriture */
-    text-decoration: none; /* pas de décoration auto */
-    text-transform: uppercase; /*  */
-    color: black; /* texte de couleur noir */
-    height: 100%; /* hauteur à 100% */
-    line-height: 100%; /*  */
-    cursor: pointer; /*  */
-    transition-duration: 0.5s; /* duré des transition de 0.5 seconde */
-}
-
-/* paramettre des boutons quand souris passe dessus */
-#boite-boutons ul li a:hover{
-    text-decoration: none; /* pas de décoration de texte */
-    color: rgb(255, 255, 255); /* texte de couleur vert */
 }
 
 /* paramettre du titre */
@@ -98,19 +98,32 @@ body, html{
 }
 
 #video{
-    margin : 2% 50% 0 30%; /* margin top="0" right="50%" bottom="0" left="30%" */
+    margin : 5% 50% 0 28%; /* margin top="0" right="50%" bottom="0" left="30%" */
 }
 
-#article{
-    background-color: rgba(128, 128, 128, 0.719);
-    width: 600px;
+#titre-article{
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 700px;
+    height: 85px;
+    text-align: center;
+    margin: -8px 0 0 29%;
+}
+
+#titrea{
+    font-size: 70px;
+    font-family: inherit;
+}
+
+#text-article{
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 1240px;
     height: 300px;
     text-align: left;
-    margin: 20px 0 0 34%;   
-    border-radius: 8px;
+    margin: 50px 0 50PX 2%;
 }
 
-#st{
+#texta{
     font-size: 30px;
     font-family: inherit;
 }
+
