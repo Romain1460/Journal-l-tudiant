@@ -1,0 +1,35 @@
+.slider{
+position:relative;
+width:200px;
+height:200px;
+overflow:hidden;
+margin:auto;
+}
+.slider div{
+width:600px;
+position:absolute;
+left:0;
+-webkit-animation:slide 10s ease 0s infinite;
+-o-animation:slide 10s ease 0s infinite;
+animation:slide 10s ease 0s infinite;
+}
+.slider img{
+display:inline-block;
+}
+@-webkit-keyframes slide{
+from{left:0}
+33%{left:0}
+33.01%{left:-200px}
+63%{left:-200px}
+63.01%{left:-400px}
+99.99%{left:-400px}
+to {left:-400px}
+}
+@keyframes slide{
+0{left:0}
+33%{left:0}
+33.01%{left:-200px}
+63%{left:-200px}
+63.01%{left:-400px}
+99.99%{left:-400px}
+}
