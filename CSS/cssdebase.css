@@ -97,10 +97,12 @@ body, html{
     color: rgb(0, 0, 0); /* couleur = noir */
 }
 
+/* paramètres emplacement de la vidéo */
 #video{
     margin : 5% 50% 0 28%; /* margin top="0" right="50%" bottom="0" left="30%" */
 }
 
+/* paramètres de la boite du titre de l'article */
 #titre-article{
     background-color: rgba(255, 255, 255, 0.788); /* couleur de fond = gris */
     width: 700px; /* taille en largeur = 700px */
@@ -109,21 +111,22 @@ body, html{
     margin: -8px 0 0 29%; /* marge top="-8px" right="0" bottom="0" left="29%" */
 }
 
+/* paramètre du titre de l'article */
 #titrea{
-    font-size: 70px;
-    font-family: inherit;
+    font-size: 70px; /* taille des caractère = 70px */
+    font-family: inherit; /* police d'écriture = " inherit " */
 }
 
 #text-article{
-    background-color: rgba(255, 255, 255, 0.788);
-    width: 1240px;
-    height: 300px;
-    text-align: left;
-    margin: 50px 0 50PX 2%;
+    background-color: rgba(255, 255, 255, 0.788); /* couleur de fond = gris */
+    width: 1240px; /* taille en largeur = 1240px */
+    height: 300px; /* taille en hauteur = 300px */
+    text-align: left; /* alignement du texte à gauche */
+    margin: 50px 0 50px 2%; /* marge top="50px" right="0" bottom="50px" left="2%" */
 }
 
 #texta{
-    font-size: 30px;
-    font-family: inherit;
+    font-size: 30px; /* taille d'écriture = 30px */
+    font-family: inherit; /* police d'écriture = "inherit" */
 }
 
