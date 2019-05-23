@@ -1,6 +1,6 @@
 /* paramettre du corp de la programmation */
 body, html{ 
-    background-image: url('img/bg.png'); /* image de fond */
+    background-image: url('../img/bg.png'); /* image de fond */
     background-repeat: no-repeat; /* pas de répétition d'images */
     background-size: auto,cover; /* l'image prend tout l'écran */
     -o-background-size: cover; /* l'image prend tout l'écran */
@@ -102,11 +102,11 @@ body, html{
 }
 
 #titre-article{
-    background-color: rgba(255, 255, 255, 0.788);
-    width: 700px;
-    height: 85px;
-    text-align: center;
-    margin: -8px 0 0 29%;
+    background-color: rgba(255, 255, 255, 0.788); /* couleur de fond = gris */
+    width: 700px; /* taille en largeur = 700px */
+    height: 85px; /* taille en hauteur = 85px */
+    text-align: center; /* alignement du texte au centre */
+    margin: -8px 0 0 29%; /* marge top="-8px" right="0" bottom="0" left="29%" */
 }
 
 #titrea{
